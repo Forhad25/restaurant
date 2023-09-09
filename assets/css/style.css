@@ -1,0 +1,223 @@
+
+/*=================================== default css ====================================*/
+body {
+    font-weight: 400;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 900;
+    line-height: 1em;
+  }
+  
+  h2 {
+    color: #502314;
+    font-size: 60px;
+  }
+  
+  h6 {
+    color: #502314;
+    font-size: 25px;
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    line-height: 1.3em;
+  }
+  
+  h3 {
+    color: #502314;
+    font-size: 25px;
+  }
+  
+  h4 {
+    color: #502314;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  p {
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn.btn-info {
+    background: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: capitalize;
+    padding: 12px 35px;
+  }
+  
+  .bg-info {
+    background-color: #f5ebdc !important;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #d62300;
+  }
+  
+  /*=================================== header css ====================================*/
+  
+  .navbar {
+    --bs-navbar-toggler-focus-width: none;
+    --bs-navbar-toggler-border-color: none;
+  }
+  
+  .header-area nav {
+    background-color: #ebe2d3;
+  }
+  
+  .menu ul li a {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 15px;
+    text-align: center;
+  }
+  
+  /*=================================== carousel css ====================================*/
+  
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    background-color: #502314;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators {
+    bottom: -15px;
+  }
+  
+  #carouselId button i {
+    color: #502314;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .carousel {
+    padding-top: 78px;
+  }
+  
+  /*==================================== about area css ================================== */
+  
+  .about-area,
+  .work-area,
+  .service-area,
+  .contact-area {
+    padding-top: 100px;
+  }
+  
+  /*==================================== work area css ================================== */
+  
+  /*================================== service area css ================================== */
+  
+  .service-area h4 {
+    text-transform: capitalize;
+  }
+  
+  /*================================== footer area css ================================== */
+  
+  .footer-area form .btn.btn-info {
+    border-radius: 0;
+  }
+  
+  .footer-area ul li a {
+    color: #262626;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .social li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  
+  /*================================== responsive css ================================== */
+  
+  /* responsive code for laptop */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  }
+  
+  /* responsive code for tablet */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    h4 {
+      font-size: 23px;
+    }
+    p {
+      font-size: 15px;
+    }
+  
+    .footer-area form .btn.btn-info {
+      padding: 5px;
+    }
+  
+    .form-control {
+      padding: 7px 5px;
+    }
+  }
+  
+  /* responsive code for mobile */
+  
+  @media only screen and (max-width: 767px) {
+    .logo a img {
+      width: 186px;
+    }
+  
+    .carousel {
+      padding-top: 54px;
+    }
+  
+    #carouselId button i {
+      font-size: 20px;
+    }
+  
+    .carousel-indicators [data-bs-target] {
+      width: 10px;
+      border-radius: 50%;
+    }
+  
+    .carousel-control-next,
+    .carousel-control-prev {
+      top: 50px;
+    }
+  
+    .about-area,
+    .work-area,
+    .service-area,
+    .contact-area {
+      padding-top: 20px;
+    }
+  
+    .about-area .btn.btn-info {
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 40px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    h4 {
+      font-size: 23px;
+    }
+  
+    h6 {
+      font-size: 20px;
+    }
+  }
+
